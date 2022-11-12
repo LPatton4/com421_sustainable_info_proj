@@ -1,0 +1,19 @@
+/*Navigation*/
+
+nav a {
+  text-decoration: none;
+}
+
+.navigation_main {
+  width: 100%;
+}
+
+.navigation_main li {
+  list-style: none;
+  float: left;
+  width: 11.1%;
+}
+
+.navigation_main a {
+  text-align: center;
+}

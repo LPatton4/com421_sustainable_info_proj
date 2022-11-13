@@ -5,55 +5,164 @@ nav a {
   color: black;
 }
 
-.navigation_main {
-  background-color: #023047;
+#navigation_main ul {
+  float: left;
   width: 100%;
-  padding: 2px 0 2px 0;
-  margin:;
+  padding: 20px 0 10px 0;
+  margin: 0 auto 20px auto;
+  background-color: #023047;
 }
 
-.navigation_main ul {
-	padding: 1em;
-  margin: 0;
-}
-
-.navigation_main ul li {
+#navigation_main li {
   list-style: none;
   float: left;
   width: 11.1%;
 }
 
-.navigation_main ul li a {
+#navigation_main a {
   display: block;
 	padding: 10px 10px;
-  background-color: #8ECAE6;
-  border: 2px;
+  background-color: #219EBC;
   border-radius: 10px;
+  color: white;
   margin: 2px;
   text-align: center;
 }
 
-.currentpg li {
-  border: 2px;
-  border-color: #FB8500;
+#currentpg a {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FFB703;
 }
 
-/*Wrapper*/
-.wrapper {
+/*Page*/
+body {
+  margin: 0 auto;
+  background-color: #8ECAE6;
+}
+
+#wrapper_main {
+  width: 900px;
   float: left;
-  width: 60%;
-  margin: 0 5%;
+  padding: 10px 20px;
+  margin: -20px 0 0 60px;
+  background-color: white;
 }
 
-/*Other Content*/
+/*Main Content*/
 h1 {
   font-size: 2.5em;
-  margin: 5px 0;
+  margin: 55px 0 5px 0;
 }
 
+h2 {
+  margin: 0 auto;
+  color: #023047;
+  text-decoration: underline;
+}
+
+#introduction a {
+  text-decoration: none;
+}
+
+#content_overview {
+  padding: 10px 20px 0 20px;
+  margin: 20px 50px;
+  border-style: dashed; 
+  border-color: #FFB703;
+  border-radius: 10px;
+  border-width: 3px;
+}
+
+figure {
+  width: 600px;
+  background-color: #023047;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+figcaption {
+  color: white;
+  margin: 5px auto 10px auto;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+/*Asides*/
 aside {
-  float: left;
-  width:25%;
-  margin: 0 5% 0 0;
+  width: 200px;
+  color: black;
+  background-color: white;
+  border-color: #FFB703;
+  border-radius: 10px;
+  border-style: dashed;
+  border-width: 6px;
+  padding: 5px;
 }
 
+#aside_research_timeline {
+  float: right;
+  position: relative;
+  margin-top: 1650px;
+  margin-right: 70px;
+}
+
+#aside_requesting_books {
+  float: right;
+  position: relative;
+  margin-top: 1700px;
+  margin-right: 70px;
+}
+
+#aside_local_libraries {
+  float: right;
+  position: relative;
+  margin-top: 200px;
+  margin-right: 70px;
+}
+
+#aside_web_resources {
+  float: right;
+  position: relative;
+  margin-top: 900px;
+  margin-right: 70px;
+}
+
+#aside_preliminaries {
+  float: right;
+  position: relative;
+  margin-top: 100px;
+  margin-right: 70px;
+}
+
+#aside_dichotomous {
+  float: right;
+  position: relative;
+  margin-top: 850px;
+  margin-right: 70px;
+}
+
+#aside_descriptive_stats {
+  float: right;
+  position: relative;
+  margin-top: 300px;
+  margin-right: 70px;
+}
+
+#aside_appropriate_analysis {
+  float: right;
+  position: relative;
+  margin-top: 960px;
+  margin-right: 70px;
+}

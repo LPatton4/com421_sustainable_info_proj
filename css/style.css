@@ -30,7 +30,7 @@ nav a {
   font-family: 'Oswald', sans-serif;
 }
 
-#currentpg a {
+.currentpg a {
   border-width: 3px;
   border-style: solid;
   border-color: #FFB703;
